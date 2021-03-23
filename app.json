@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "Pay and Win",
+    "slug": "pay-and-win",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "backgroundColor": "#ffffff",
+    "android": {
+      "icon": "./assets/adaptive-icon.png",
+      "package": "com.alov.payandwin",
+      "versionCode": 1,
+      "useNextNotificationsApi": true,
+      "enableDangerousExperimentalLeanBuilds": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAnwXJXpo1gqAb6gVJ9PCmy0iBqJRflt80"
+        }
+      },
+      "splash": {
+        "backgroundColor": "#ffffff",
+        "image": "./assets/splash.png",
+        "resizeMode": "native"
+      },
+      "userInterfaceStyle": "automatic",
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./src/functions/firebase/google-services.json",
+      "permissions": [
+        "NOTIFICATIONS",
+        "LOCATION",
+        "CAMERA",
+        "USER_FACING_NOTIFICATIONS",
+        "MEDIA_LIBRARY",
+        "MEDIA_LIBRARY_WRITE_ONLY",
+        "MOTION"
+      ]
+    },
+    "description": "Pay and Win mobil tətbiqetməsi istifadəçilərin rahat,sürətli,kassa növbəsi gözləmədən,nəğd pulla və digər insanlarla minumum təməsda olmaq alış veriş etmələri üçün nəzərdə tutulub.",
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyBNV8N-1fuHqQFJXtcMWSSg6BAUv2JLlG8",
+          "authDomain": "storeapp1-ea810.firebaseapp.com",
+          "databaseURL": "https://storeapp1-ea810.firebaseio.com",
+          "projectId": "storeapp1-ea810",
+          "storageBucket": "storeapp1-ea810.appspot.com",
+          "messagingSenderId": "529946008622",
+          "appId": "1:529946008622:web:7eaa8efcadd7aa4de113bf",
+          "measurementId": "G-FD4T4X8TRP"
+        }
+      }
+    },
+    "sdkVersion": "40.0.0",
+    "userInterfaceStyle": "automatic",
+    "locales": {
+      "az":"./src/functions/lang/az.json",
+      "en":"./src/functions/lang/en.json",
+      "ru":"./src/functions/lang/ru.json"
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
